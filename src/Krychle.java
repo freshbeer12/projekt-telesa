@@ -2,8 +2,8 @@ public class Krychle implements IDefinice {
 
     private int hranaKrychle;
 
-    public int povrch(){
-        int povrchKrychle = 6*hranaKrychle*hranaKrychle;
+    public double povrch(){
+        double povrchKrychle = 6*hranaKrychle*hranaKrychle;
         return povrchKrychle;
     }
     public int objem(){

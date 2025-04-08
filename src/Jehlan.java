@@ -7,8 +7,8 @@ public class Jehlan implements IDefinice{
 
 
 
-        public int povrch(){
-            int povrchJehlan = obsahCtverce + obsahPlast;
+        public double povrch(){
+            double povrchJehlan = obsahCtverce + obsahPlast;
             return povrchJehlan;
         }
         public int objem(){

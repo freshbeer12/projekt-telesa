@@ -7,8 +7,8 @@ public class Kuzel implements IDefinice {
         private int polomerKuzel;
         private int vyskaKuzel;
 
-        public int povrch(){
-            int povrchKuzele = 3.14*(podstava*(podstava*(polomerKuzel*polomerKuzel)/2);
+        public double povrch(){
+            double povrchKuzele = Math.sqrt((polomerKuzel * polomerKuzel) + vyska * vyska);
             return povrchKuzele;
         }
         public int objem(){
