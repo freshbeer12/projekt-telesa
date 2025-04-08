@@ -5,7 +5,7 @@ public class Main {
 
             ArrayList<Krychle> krychle = new ArrayList<>();
             ArrayList<Kuzel> kuzel = new ArrayList<>();
-            ArrayList<Jehlan> jehlan = new ArrayList<Jehlan>();
+            ArrayList<Jehlan> jehlan = new ArrayList<>();
             Scanner sc = new Scanner(System.in);
 
              static void main(String[] args) {
@@ -49,14 +49,42 @@ public class Main {
             }
 
             static void vypisTelesa(){
-
+                System.out.println("Zvol, který druh tělesa si přeješ vypsat : Krychle (1) / Kuzel (2) / Jehlan (3)");
+                int druhVypis = sc.nextInt();
+                if (druhVypis == 1){
+                    System.out.println("");
+                }
+                else if (druhVypis == 2) {
+                    System.out.println("");
+                }
+                else if (druhVypis == 3) {
+                 System.out.println("");
+                }
         }
-
             static void povrchyTeles(){
+
+
 
         }
 
             static void pocetDruhu(){
+                System.out.println("Počet krychlí je " + krychle.size());
+                System.out.println("Počet kuželů je " + kuzel.size());
+                System.out.println("Počet jehlanů je " + jehlan.size());
+        }
+
+            static void objemyTeles(){
+
+        }
+            static void nejvetsiPovrch(){
+                for (int i = 0; i < krychle.size(); i++) {
+                }
+                for (int i = 0; i < kuzel.size(); i++) {
+                }
+                for (int i = 0; i < jehlan.size(); i++) {
+                }
+
+
 
         }
     }
