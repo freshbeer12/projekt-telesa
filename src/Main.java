@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    ArrayList<Krychle> krychle = new ArrayList<>();
-    ArrayList<Kuzel> kuzel = new ArrayList<>();
-    ArrayList<Jehlan> jehlan = new ArrayList<>();
+    static ArrayList<Krychle> krychle = new ArrayList<>();
+    static ArrayList<Kuzel> kuzel = new ArrayList<>();
+    static ArrayList<Jehlan> jehlan = new ArrayList<>();
 
 
     static Scanner sc = new Scanner(System.in);
@@ -113,7 +113,7 @@ public class Main {
         System.out.println("Těleso s nejmenším povrchem: " + nejmensiTeleso);
     }
 
-}
+
 
 public static void pocetDruhu(){
     System.out.println("Počet krychlí je " + krychle.size());
@@ -139,7 +139,7 @@ public static void objemyTeles(){
     System.out.println("Součet všech objemů těles: " + soucetObjemu);
 }
 
-        }
+
 public static void nejvetsiPovrch(){
     double nejvetsiPovrch = -Double.MAX_VALUE;
     String nejvetsiTeleso = "";
@@ -170,7 +170,7 @@ public static void nejvetsiPovrch(){
 
     System.out.println("Těleso s největším povrchem: " + nejvetsiTeleso);
 }
-
+}
 
 
 
