@@ -20,9 +20,9 @@ public class Main {
                     case 5: objemyTeles();
                     case 6: nejvetsiPovrch();
                 }
-                while (volba != 0);
+                while (volba != 6);
             }
-             void pridejTeleso() {
+             static void pridejTeleso() {
                 System.out.println("Zvol, které těleso si přeješ přidat : Krychle (1) / Kuzel (2) / Jehlan (3)");
                 int druh = sc.nextInt();
                 if (druh == 1){
@@ -48,6 +48,15 @@ public class Main {
                 }
             }
 
+            static void vypisTelesa(){
+
+        }
+
+            static void povrchyTeles(){
+
+        }
+
+            static void pocetDruhu(){
 
         }
     }
