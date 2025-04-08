@@ -1,4 +1,6 @@
-public class Jehlan implements IDefinice{
+import java.util.ArrayList;
+
+public class Jehlan extends ArrayList implements IDefinice{
 
     private int hranaDP;
     private int vyskaJehlan;

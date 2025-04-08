@@ -1,4 +1,6 @@
-public class Kuzel implements IDefinice {
+import java.util.ArrayList;
+
+public class Kuzel extends ArrayList implements IDefinice {
 
     private int podstava;
     private int vyska;
@@ -21,5 +23,4 @@ public class Kuzel implements IDefinice {
             System.out.println("Povrch kužele je " + povrch() + " a objem kužele je " + objem());
             return informace();
         }
-
 }

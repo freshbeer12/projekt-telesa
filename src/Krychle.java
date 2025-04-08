@@ -1,4 +1,6 @@
-public class Krychle implements IDefinice {
+import java.util.ArrayList;
+
+public class Krychle extends ArrayList implements IDefinice {
 
     private int hranaKrychle;
 
