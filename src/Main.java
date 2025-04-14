@@ -34,7 +34,7 @@ public class Main {
                 case 5 -> objemyTeles();
                 case 6 -> nejvetsiPovrch();
                 case 7 -> konec = true;
-                default -> System.err.println("špatná hodnota zadana!");
+                default -> System.err.println("Byla zadána špatná hodnota!");
             }
         }
 
