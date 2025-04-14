@@ -2,25 +2,29 @@ import java.util.ArrayList;
 
 public class Kuzel extends ArrayList implements IDefinice {
 
-    private int podstava;
-    private int vyska;
 
 
-        private int polomerKuzel;
-        private int vyskaKuzel;
 
-        public double povrch(){
-            double povrchKuzele = Math.sqrt((polomerKuzel * polomerKuzel) + vyska * vyska);
-            return povrchKuzele;
-        }
-        public int objem(){
-            int mocninaR = podstava*podstava;
-            int objemKuzele = (int) ((3.14*(podstava*podstava)*vyskaKuzel)/3);
-            return objemKuzele;
-        }
+    private double polomerKuzel;
+    private double vyskaKuzel;
 
-        public String informace() {
-            System.out.println("Povrch kužele je " + povrch() + " a objem kužele je " + objem());
-            return informace();
-        }
+    public Kuzel(double polomerKuzel, double vyskaKuzel) {
+        this.polomerKuzel = polomerKuzel;
+        this.vyskaKuzel = vyskaKuzel;
+
+    }
+    public double povrch(){
+        double povrchKuzele = Math.sqrt((polomerKuzel * polomerKuzel) + vyskaKuzel * vyskaKuzel);
+        return povrchKuzele;
+    }
+    public double objem(){
+        double mocninaR = polomerKuzel*polomerKuzel;
+        double objemKuzele = (double) ((3.14*(polomerKuzel*polomerKuzel)*vyskaKuzel)/3);
+        return objemKuzele;
+    }
+
+    public String informace() {
+        System.out.println("Povrch kužele je " + povrch() + " a objem kužele je " + objem());
+        return informace();
+    }
 }

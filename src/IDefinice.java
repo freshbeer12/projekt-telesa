@@ -1,5 +1,5 @@
 public interface IDefinice {
     double povrch();
-    int objem();
+    double objem();
     String informace();
 }

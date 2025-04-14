@@ -2,14 +2,18 @@ import java.util.ArrayList;
 
 public class Krychle extends ArrayList implements IDefinice {
 
-    private int hranaKrychle;
+    private double hranaKrychle;
+
+    Krychle(double hranaKrychle) {
+        this.hranaKrychle = hranaKrychle;
+    }
 
     public double povrch(){
         double povrchKrychle = 6*hranaKrychle*hranaKrychle;
         return povrchKrychle;
     }
-    public int objem(){
-        int objemKrychle = hranaKrychle*(hranaKrychle*hranaKrychle);
+    public double objem(){
+        double objemKrychle = hranaKrychle*(hranaKrychle*hranaKrychle);
         return objemKrychle;
     }
 
