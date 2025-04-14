@@ -25,8 +25,6 @@ public class Main {
 
 
 
-
-
             volba = sc.nextInt();
             switch (volba) {
                 case 1 -> pridejTeleso();
@@ -41,14 +39,6 @@ public class Main {
         }
 
     }
-
-
-
-
-
-
-
-
 
 
 
